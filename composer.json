@@ -1,0 +1,23 @@
+{
+    "name": "wangbaojin/firstpackage",
+    "authors": [
+        {
+            "name": "wangbaojin",
+            "email": "wangbaojin1006@163.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "Wangbaojin\\Firstpackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wangbaojin\\Firstpackage\\FirstpackageProvider"
+
+            ]
+        }
+    },
+    "require": {}
+}
